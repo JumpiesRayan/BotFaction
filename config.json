@@ -1,0 +1,19 @@
+{
+    "token": "ODEyMTM0NDQ3MTI5OTUyMjU3.YC8VJA.RZo4l2a-tL8J4MGhrqE00WoBS9w",
+    "prefix": "$",
+    "greeting": {
+        "channel": "791905322158784526",
+        "role": "792243451914878996"
+    },
+
+    "ticket": {
+        "category": "812784053677195304",
+        "roles": ["792241070682406932", "792242958769324053"]
+    },
+
+    "logs": "812783793965629461",
+    "logs_command": "817228348837199872",
+    "logs_general": "817615851301240843",
+    "serveurID": "791905322158784523",
+    "xpchannel": "792238602653663233"
+}
