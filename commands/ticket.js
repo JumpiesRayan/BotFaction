@@ -1,6 +1,6 @@
-const config = require('../config.json'),
-    fs = require('fs'),
-    Discord = require('discord.js')
+const config = require('../config.json')
+const fs = require('fs')
+const Discord = require('discord.js')
  
 module.exports = {
     run: async (message, args, client) => {
@@ -27,7 +27,7 @@ module.exports = {
         }
         fs.writeFileSync('./db.json', JSON.stringify(client.db))
         channel.send(new Discord.MessageEmbed()
-            .setDescription(`Bonjour ${message.member}, bienvenue dans votre ticket. Nous allons nous occuper de vous.`))
+            .setDescription(`Hey ${message.member}, bienvenue dans votre ticket.`))
         message.delete()
         message.channel.send(`Votre ticket ${channel} a été créé !`)
 

@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const replies = ['Oui', 'Non', 'Peut être']
+const replies = ['Oui', 'Non']
 const config = require('../config.json')
     
  

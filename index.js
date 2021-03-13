@@ -57,7 +57,7 @@
          .setColor('RANDOM'))
  })
 
- // ---------- | STATUT DU BOT | ------------
+ // ---------- | STATUT DU BOT + CONSOLE.LOG BOT ON | ------------
 
  client.on('ready', () => {
      const statuses = [
@@ -167,7 +167,7 @@
 
 
  client.on("message", function (message) {
-     if (message.author.Client) return;
+     if (message.author.client) return;
      var addXP = Math.floor(Math.random() * 25); //lorsque je tape addXP, il choisit au hasard un nombre compris entre 1 et 50   [  Math.floor(Math.random() * 10)  ]
      // lvl 1 statics
      if (!xpfile[message.author.id]) {
@@ -421,5 +421,4 @@ client.on('message', async message => {
     if (message.content.search("connar") > -1) {
     message.delete()
     }
-
 })
